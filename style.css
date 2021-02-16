@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#logo {
+    /* animation: fill 0.5s ease forwards 4.5s infinite; */
+}
+
+#logo path:nth-child(1) {
+    stroke-dasharray: 309.02398681640625;
+    stroke-dashoffset: 309.02398681640625;
+    animation: animateLine 2s ease forwards 0.3s infinite;
+}
+
+#logo path:nth-child(2) {
+    stroke-dasharray: 537.531005859375;
+    stroke-dashoffset: 537.531005859375;
+    animation: animateLine 2s ease forwards 0.6s infinite;
+}
+
+#logo path:nth-child(3) {
+    stroke-dasharray: 614.0283813476562;
+    stroke-dashoffset: 614.0283813476562;
+    animation: animateLine 2s ease forwards 0.9s infinite;
+}
+
+#logo path:nth-child(4) {
+    stroke-dasharray: 557.7606811523438;
+    stroke-dashoffset: 557.7606811523438;
+    animation: animateLine 2s ease forwards 1.2s infinite;
+}
+
+#logo path:nth-child(5) {
+    stroke-dasharray: 373.50494384765625;
+    stroke-dashoffset: 373.50494384765625;
+    animation: animateLine 2s ease forwards 1.5s infinite;
+}
+
+#logo path:nth-child(6) {
+    stroke-dasharray: 618.1607666015625;
+    stroke-dashoffset: 618.1607666015625;
+    animation: animateLine 2s ease forwards 1.8s infinite;
+}
+
+#logo path:nth-child(7) {
+    stroke-dasharray: 549.662841796875;
+    stroke-dashoffset: 549.662841796875;
+    animation: animateLine 2s ease forwards 2.1s infinite;
+}
+
+#logo path:nth-child(8) {
+    stroke-dasharray: 483.5780944824219;
+    stroke-dashoffset: 483.5780944824219;
+    animation: animateLine 2s ease forwards 2.4s infinite;
+}
+
+#logo path:nth-child(9) {
+    stroke-dasharray: 373.50506591796875;
+    stroke-dashoffset: 373.50506591796875;
+    animation: animateLine 2s ease forwards 2.7s infinite;
+}
+
+#logo path:nth-child(10) {
+    stroke-dasharray: 618.1607666015625;
+    stroke-dashoffset: 618.1607666015625;
+    animation: animateLine 2s ease forwards 3s infinite;
+}
+
+@keyframes animateLine {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: white;
+    }
+}
